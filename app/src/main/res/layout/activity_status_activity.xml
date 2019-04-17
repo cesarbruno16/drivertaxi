@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="-2dp"
+        android:layout_marginLeft="-2dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <RelativeLayout
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:gravity="center"
+                android:id="@+id/back">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/back_arrow"/>
+
+            </RelativeLayout>
+            <customviews.typefacesviews.TypefaceDosisRegular
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text=""/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/image"
+            android:src="@drawable/app_logo_100"/>
+
+        <customviews.typefacesviews.TypefaceDosisRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/message"
+            android:text="@string/some_information_about_status_will_be_fetched_according_to_the_status_and_image_as_well"
+            android:gravity="center"
+            android:layout_margin="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>

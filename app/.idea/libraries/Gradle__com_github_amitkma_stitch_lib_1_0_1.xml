@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.amitkma:stitch-lib-1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/5d6838162e1a061de7dc1eee11dbc214da93b91e/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/5d6838162e1a061de7dc1eee11dbc214da93b91e/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

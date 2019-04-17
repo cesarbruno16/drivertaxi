@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/pure_white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:textColor="#333333"
+                    android:text="@string/you_have_logged_in_as_a_demo_driver_by_default_your_car_category_is_mini"
+                    android:gravity="center"/>
+
+
+
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="20dp">
+                    <TextView
+                        android:id="@+id/demo_ok_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="49dp"
+                        android:background="@color/icons_8_muted_orange"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:text="@string/ok"
+                        android:textColor="@color/pure_white">
+                    </TextView>
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+
+            </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

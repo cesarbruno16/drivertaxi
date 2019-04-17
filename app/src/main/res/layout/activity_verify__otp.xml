@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.globalstore.levalidriver.Verify_OTP">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorHeader"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/otp_back_signup"
+            android:layout_width="50dp"
+            android:visibility="invisible"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back_arrow"
+                android:tint="@color/colorPrimary"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <customviews.typefacesviews.TypeFaceTextMonixRegular
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/VERIFY_OTP"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorView" />
+
+    <LinearLayout
+        android:id="@+id/phone_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/otp_ccp"
+            app:defaultCode="55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:hideNameCode="true"
+            app:keyboardAutoPopOnSearch="false"
+            app:showFlag="false"
+            app:textSize="15dp"
+            android:layout_marginLeft="10dp"/>
+
+
+        <EditText
+            android:id="@+id/edt_enter_phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:ems="11"
+            android:gravity="center|left"
+            android:hint="Enter Phone Number"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:minLines="1"
+            android:textColorHint="@color/icons_8_muted_grey"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/icons_8_muted_violet_dark" />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/generate_otp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/getOTP" />
+
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="@string/LOGIN_TEXT_verify"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/pure_black" />
+
+
+    <LinearLayout
+        android:id="@+id/otpLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/layout_light"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_verify_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:layout_gravity="center|left"
+            android:background="@android:color/transparent"
+            android:hint="@string/VERIFY_OTP_text"
+            android:singleLine="true"
+            android:textSize="15dp" />
+
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/otp_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+
+        <com.globalstore.levalidriver.typeface.TypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/REGISTER_ACTIVITY__continuee"
+            android:textColor="@color/pure_white"
+            android:textSize="16dp"
+            app:customTypeface="OpenSans_Regular.ttf" />
+    </LinearLayout>
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorView" />
+
+    </RelativeLayout>
+</LinearLayout>

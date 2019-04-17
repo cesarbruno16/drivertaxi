@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".7"
+        android:background="@color/colorBlack" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_light_for_dialog"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+            android:textColor="@color/icon_8_muted_black"
+            android:textSize="13dp"
+        android:text="Meter Range is actually the distance factor value by which the value of meter while change during ride. You can test it by placing an request to this driver and afterward when ride is started , the meter will get start updating itself automatically  by the enter factor (by default the factor is 99 ) \n\n Example if value is set by 50 then meter will update each time when you car travel 50 meter or above ."/>
+
+
+        <customviews.typefacesviews.TypefaceDosisRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/icon_8_muted_black"
+        android:gravity="center"
+        android:padding="7dp"
+        android:text="Developers Note : it is recomended to set this value between  70 to 99 for the best result . If you set it too low say 20 then you will see change in meter value even when car is not moving (or your phone is stable ). This matchs depends upon the accuracy factor of network (TimeService class in code.)"/>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorView" />
+
+        <LinearLayout
+            android:id="@+id/ok_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TRACK_RIDE_RENTAL_ACTIVITY__ok"
+                android:textColor="@color/pure_white"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amitshekhar.android:android-networking-1.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/39eb106a44f782fd2ab1b12ec1be912fe80dc1bc/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/39eb106a44f782fd2ab1b12ec1be912fe80dc1bc/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:background="@color/icon_8_muted_black"
+    android:padding="20dp"
+    tools:context="com.globalstore.levalidriver.account.DriverPhotoUploadActivity">
+
+
+
+    <customviews.typefacesviews.TypefaceDosisRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/METER_IMAGE_ACTIVITY__please_upload_a_photo_of_your_meter_of_your_car_or_motorcycle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:textColor="@color/pure_white"/>
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:elevation="2dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_camera_grey"
+        android:id="@+id/image"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:hint="@string/METER_IMAGE_ACTIVITY__enter_meter_value"
+        android:inputType="number"
+        android:textColor="@color/icon_8_muted_black"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/meter_val_edt"
+        android:paddingLeft="10dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/ok_btn"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <customviews.typefacesviews.TypefaceDosisRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/METER_IMAGE_ACTIVITY__ok"
+            android:textColor="@color/pure_white"
+            android:id="@+id/button_txt"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

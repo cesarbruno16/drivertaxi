@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.wdullaer:materialdatetimepicker-2.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/5fffbd8dc5ddd28235134e334a5ed76c3431f4ed/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/5fffbd8dc5ddd28235134e334a5ed76c3431f4ed/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

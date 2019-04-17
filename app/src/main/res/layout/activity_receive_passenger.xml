@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/icon_8_muted_black"
+    tools:context="com.globalstore.levalidriver.TrialReceivePassengerActivity">
+
+    cancel button
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center|right"
+        android:layout_margin="10dp"
+        android:id="@+id/cancel_layout"
+        android:visibility="gone">
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:id="@+id/cancel_btn"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@color/icons_8_muted_red">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/ic_cross_close"
+                    android:tint="@color/pure_white"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/WEEKLY_STATEMENT_ACTIVITY__cancel"
+                    android:textColor="@color/pure_white"
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+
+    MAIN VIEW
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/cash_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/main_layout_payment_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/WEEKLY_STATEMENT_ACTIVITY__payment_mode"
+                    android:textColor="@color/pure_white" />
+
+                <TextView
+                    android:id="@+id/main_layout_payment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/WEEKLY_STATEMENT_ACTIVITY__cash"
+                    android:textColor="@color/pure_white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/card_layout"
+                android:visibility="gone"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pay_with_card_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/WEEKLY_STATEMENT_ACTIVITY__payment_mode"
+                    android:textColor="@color/pure_white" />
+
+                <TextView
+                    android:id="@+id/pay_with_card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/WEEKLY_STATEMENT_ACTIVITY__card"
+                    android:textColor="@color/pure_white" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <FrameLayout
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="20dp">
+
+
+            <customviews.progresswheel.ProgressWheel
+                android:id="@+id/activity_countdown_timer_days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="gone"
+                android:tag="Thin"
+                ProgressWheel:barColor="@color/icons_8_muted_green_1"
+                ProgressWheel:barWidth="6dp"
+                ProgressWheel:rimColor="@color/icons_8_muted_blue"
+                ProgressWheel:rimWidth="3dp"
+                ProgressWheel:textColor="@color/icons_8_muted_green_1"
+                ProgressWheel:textSize="24dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/map_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                custom:civ_border_width="5dp"
+                custom:civ_border_color="@color/icons_8_muted_green_1"/>
+
+            <customviews.PulsatorLayout
+                android:id="@+id/pulsator"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                app:pulse_count="1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="6dp"
+                app:pulse_duration="800"
+                app:pulse_repeat="1"
+                app:pulse_color="@color/colorPrimary"
+                app:pulse_startFromScratch="false"
+                app:pulse_interpolator="Linear"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/time_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00"
+                android:textColor="@color/icons_8_muted_blue"
+                android:textStyle="bold"
+                android:textSize="130dp"
+                android:layout_gravity="center"
+                android:visibility="visible"/>
+
+
+        </FrameLayout>
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/main_layout_pickup_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/WEEKLY_STATEMENT_ACTIVITY__loading"
+            android:textColor="@color/pure_white" />
+
+    </LinearLayout>
+
+
+    RIDE EXPIRE VIEW
+    <LinearLayout
+        android:id="@+id/ride_expire_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="3dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/icons_8_muted_green_1" />
+                <TextView
+                    android:id="@+id/ride_expire_pick_address_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:text="------------"
+                    android:textColor="@color/pure_white" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="3dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/icons_8_muted_red" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:id="@+id/ride_expire_drop_address_txt"
+                    android:text=""
+                    android:textColor="@color/pure_white" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/WEEKLY_STATEMENT_ACTIVITY__your_are_too_late_to_respond_over_this_request_please_contact_to_your_admin"
+            android:textColor="@color/icons_8_muted_grey"
+            android:id="@+id/expire_msg"
+            android:textSize="15dp" />
+
+
+        <LinearLayout
+            android:id="@+id/ride_expire_ok_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/layout_dark"
+            android:gravity="center">
+
+
+            <com.globalstore.levalidriver.typeface.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ACTIVITY_TRIAL_RECEIVE_PASSENGER_ok"
+                android:textColor="@color/icon_8_muted_black"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    OK BUTTON
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="visible"
+        android:id="@+id/accept_ride_btn"
+        android:background="@color/icons_8_muted_green_1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/WEEKLY_STATEMENT_ACTIVITY__accept_ride"
+            android:textColor="@color/pure_white"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

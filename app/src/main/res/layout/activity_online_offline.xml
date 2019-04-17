@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f2f2f2"
+        android:gravity="center|top"
+        android:orientation="vertical">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center|right">
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:id="@+id/close_btn">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_cross_close"
+                    android:tint="#c7c7c7"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <customviews.typefacesviews.TypefaceDosisRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:text="@string/ONLINE_OFFLINE_ACTIVITY__currently_you_are_off_duty_please_turn_on_your_duty_on_in_order_to_get_rides_in_you_area"
+            android:textColor="@color/icon_8_muted_black"
+            android:id="@+id/status_description_txt"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_driver_online_offline"
+            android:tint="@color/icons_8_muted_green_2_dark"
+            android:id="@+id/status_image" />
+
+        <customviews.typefacesviews.TypefaceDosisRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ONLINE_OFFLINE_ACTIVITY__current_status"
+            android:textColor="@color/icon_8_muted_black"
+            android:layout_marginTop="10dp"/>
+
+        <customviews.typefacesviews.TypeFaceTextMonixBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ONLINE_OFFLINE_ACTIVITY__on_duty"
+            android:textAllCaps="true"
+            android:textColor="@color/icons_8_muted_green_2_dark"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/status__txt"/>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@color/pure_white"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:id="@+id/status_btn">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ONLINE_OFFLINE_ACTIVITY__go_on_duty"
+                    android:textAllCaps="true"
+                    android:textColor="@color/icon_8_muted_black"
+                    android:id="@+id/btn_txt"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

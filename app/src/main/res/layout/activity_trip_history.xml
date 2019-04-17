@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:id="@+id/root"
+    tools:context="com.globalstore.levalidriver.activities.BrowsePlanActivity">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:id="@+id/root_action_bar">
+                <ImageView
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"
+                    android:src="@drawable/back_arrow"
+                    android:tint="@color/colorPrimary"
+                    android:id="@+id/back"
+                    android:padding="13dp"/>
+                <com.globalstore.levalidriver.typeface.TypefaceTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text=""
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:id="@+id/activity_name"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center|left"/>
+
+
+                <ImageView
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"
+                    android:src="@drawable/ic_refresh"
+                    android:padding="6dp"
+                    android:id="@+id/refresh"/>
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="5dp"
+                android:layout_height="wrap_content">
+
+                <com.ogaclejapan.smarttablayout.SmartTabLayout
+                    android:id="@+id/viewpagertab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@color/icons_8_muted_grey"
+                    app:stl_indicatorAlwaysInCenter="false"
+                    app:stl_indicatorWithoutPadding="false"
+                    app:stl_indicatorInFront="false"
+                    app:stl_indicatorInterpolation="smart"
+                    app:stl_indicatorGravity="center"
+                    app:stl_indicatorColor="@color/colorPrimary"
+                    app:stl_indicatorThickness="30dp"
+                    app:stl_indicatorWidth="auto"
+                    app:stl_indicatorCornerRadius="5dp"
+                    app:stl_overlineColor="#bbbbbb"
+                    app:stl_overlineThickness="0dp"
+                    app:stl_underlineColor="#bbbbbb"
+                    app:stl_underlineThickness="0dp"
+                    app:stl_dividerColor="#4D000000"
+                    app:stl_dividerThickness="0.5dp"
+                    app:stl_defaultTabBackground="?attr/selectableItemBackgroundBorderless"
+                    app:stl_defaultTabTextAllCaps="false"
+                    app:stl_defaultTabTextColor="@color/icons_8_muted_offWhite"
+                    app:stl_defaultTabTextSize="12sp"
+                    app:stl_defaultTabTextHorizontalPadding="16dp"
+                    app:stl_defaultTabTextMinWidth="0dp"
+                    app:stl_distributeEvenly="true"
+                    app:stl_clickable="true"
+                    app:stl_titleOffset="24dp"
+                    app:stl_drawDecorationAfterTab="false"
+                    />
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</LinearLayout>

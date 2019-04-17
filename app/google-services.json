@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1074471200362",
+    "firebase_url": "https://ridetaxi-d7303.firebaseio.com",
+    "project_id": "ridetaxi-d7303",
+    "storage_bucket": "ridetaxi-d7303.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074471200362:android:c3f515b8af312e66",
+        "android_client_info": {
+          "package_name": "com.ride.taxiDriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074471200362-vg67rjqh1ge7soo52v36hanqp1j00rs3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW-0BxMqz0_-kYcTSL26I7fFLQlwVB_wg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074471200362:android:3bf7a554c4541cf2",
+        "android_client_info": {
+          "package_name": "com.ride.taxiUser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074471200362-vg67rjqh1ge7soo52v36hanqp1j00rs3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW-0BxMqz0_-kYcTSL26I7fFLQlwVB_wg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

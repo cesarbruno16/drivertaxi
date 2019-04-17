@@ -1,0 +1,610 @@
+<resources>
+
+    <string name="google_map_key">AIzaSyCTAg2TXt8AiswL_Ro6k76c_p1bisIWxEU</string>
+
+
+    <string name="app_name">DELUXE DRIVES</string>
+    <string name="closeDrawer">Close</string>
+    <string name="openDrawer">open</string>
+
+    <string name="client_detail">CLIENT DETAIL</string>
+    <string name="info">INFO</string>
+    <string name="pickup_location">PICKUP LOCATION</string>
+    <string name="drop_location">DROP LOCATION</string>
+    <string name="other_docs">Other Documents</string>
+    <string name="customer_info">CUSTOMER INFORMATION</string>
+    <string name="address">Address</string>
+
+
+    <string name="my_location">MY LOCATION</string>
+    <string name="getting_location">Getting location...</string>
+
+
+    <string name="your_account">YOUR ACCOUNT</string>
+
+    <string name="trip_conformation">TRIP CONFIRMATION</string>
+    <string name="accept">ACCEPT</string>
+    <string name="reject">REJECT</string>
+
+    <string name="register">REGISTER</string>
+
+    <string name="login_as_testing">LOGIN AS TESTING</string>
+
+
+    <string name="upload_file">Upload File</string>
+    <string name="image_file">Image File</string>
+    <string name="pdf_file">PDF File</string>
+    <string name="cancel">CANCEL</string>
+
+
+    <string name="new_version">New Version Avaiable</string>
+    <string name="force_update">Update</string>
+
+    <string name="oops">Oops !!</string>
+    <string name="network_problem">Network Problem!!</string>
+    <string name="exit">EXIT</string>
+    <string name="refresh">REFRESH</string>
+
+    ////////////////////////////////
+
+
+    <string name="report_issue">Report Issue</string>
+    <string name="call_support">Call Support</string>
+    <string name="show_notification">Show notification</string>
+    <string name="no_rides">No Rides!!</string>
+    <string name="daily_earnings">DAILY EARNINGS</string>
+    <string name="your_location">Your location</string>
+    <string name="track_ride">Track ride</string>
+    <string name="bill_details">Bill Details</string>
+    <string name="total_fare">Total Fare</string>
+    <string name="call_user">Call User</string>
+    <string name="accept_ride">Accept Ride</string>
+    <string name="reject_ride">Reject Ride</string>
+    <string name="cancel_ride">Cancel Ride</string>
+    <string name="booking_cancel_by_customer">Ride Cancelled By Customer !</string>
+    <string name="this_is_a_mandatory_app_update_please_update_your_app_version_sorry_for_the_inconvenience_thanks">This is a mandatory app update. Please update your app version. Sorry for the inconvenience. Thanks</string>
+    <string name="update">Update</string>
+    <string name="new_version_available">New Version Available</string>
+    <string name="ride_start">Ride Start</string>
+    <string name="remind_me_later">Remind me Later</string>
+    <string name="new_text">New Text</string>
+    <string name="total_rides">Total Rides</string>
+    <string name="total_earning">Total Earning</string>
+    <string name="version">Version</string>
+    <string name="old_pasword_field_is_empty">Old Password field is empty</string>
+    <string name="new_password_field_is_empty">New Password field is empty</string>
+    <string name="confirm_password_field_is_empty">Confirm Password field is empty</string>
+    <string name="set_password_id_of_min_six_character">Set password id of min. 6 character</string>
+    <string name="password_not_matched">Password Not Matched !!!</string>
+    <string name="loading">Loading...</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="service_missing">SERVICE MISSING</string>
+    <string name="update_required">UPDATE REQUIRED</string>
+    <string name="please_upload_insurance_copy">Please upload insurance copy</string>
+    <string name="please_upload_copy">Please upload licence copy</string>
+    <string name="please_rc_copy">Please upload rc copy</string>
+    <string name="insurance_copy_saved">Insurance Copy Saved</string>
+    <string name="lisence_copy_saved">Licence Copy Saved</string>
+    <string name="RC_copy_saved">RC Copy Saved</string>
+    <string name="document_copy_saved">Documents Copy Saved</string>
+    <string name="please_enter_email">Please Enter Email</string>
+    <string name="email_can_not_be_empty">Required field empty!</string>
+    <string name="password_can_not_be_empty">Password field can\'t be Empty</string>
+    <string name="please_select_stars">Please select stars</string>
+    <string name="name_can_not_be_empty">Name cannot be empty!</string>
+    <string name="phone_can_not_be_empty">Phone cannot be empty!</string>
+    <string name="bank_name_empty">Bank Name cannot be empty!</string>
+    <string name="account_name_empty">Account Name cannot be empty!</string>
+    <string name="account_number_empty">Account Number cannot be empty!</string>
+    <string name="time_out">Time Out</string>
+    <string name="no_city_found">No City Found</string>
+    <string name="please_select_city">Please Select City First</string>
+    <string name="no_car_found">No Car Type Found</string>
+    <string name="please_select_car_type_first">Please Select Car Type First</string>
+    <string name="no_car_model_found">No Car Model Found</string>
+    <string name="please_enter_name">Please Enter Name</string>
+    <string name="please_enter_bank_name">Please Enter Bank Name</string>
+    <string name="please_enter_account_number">Please Enter Account Number</string>
+    <string name="please_enter_account_name">Please Enter Account Name</string>
+    <string name="please_enter_phone">Please Enter Phone</string>
+    <string name="please_enter_password">Please Enter Password</string>
+    <string name="please_select_car_type">Please Select Car Type</string>
+    <string name="please_select_car_model">Please Select Car Model</string>
+    <string name="please_enter_car_number">Please Enter car Number</string>
+    <string name="please_enter_correct_email">Please Enter Correct Email</string>
+    <string name="phone_number_should_be_of_ten_digit">Phone should be of 10 digits</string>
+    <string name="password_should_be_minimum_six_digit">Password should be of min. 6 character</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="please_enter_the_maindatory_details">Please Enter the mandatory details</string>
+    <string name="distance_symbol"></string>
+    //// need to look out
+    <string name="user_info">User Info</string>
+    <string name="accpted">Accepted</string>
+    <string name="rejected">REJECTED</string>
+    <string name="reached">REACHED</string>
+    <string name="ongoing">ON GOING</string>
+    <string name="new_ride">New Ride</string>
+    <string name="cancel_by_driver">Cancel by Driver</string>
+    <string name="retry">Retry</string>
+    <string name="enable_app_location">Please Enable your location to use the app services</string>
+    <string name="open_location_settings">Open Location Settings</string>
+    <string name="permission_String">This Application requires some permissions to run.</string>
+
+
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="last_update_time_label">Last location update time</string>
+    <string name="distance">Distance</string>
+    <string name="driver">Driver</string>
+    <string name="getting_your_location_please_move_your_vehicle">Getting your location please move your vehicle.</string>
+    <string name="coupon_applied">Coupon Applied</string>
+    <string name="online_status_description_txt">You are on duty, In order to turn off request from customer please turn off duty.</string>
+
+
+    ////// bottom picker strings
+    <string name="tedbottompicker_title">Select Image</string>
+    <string name="no_image">No Image</string>
+
+
+    <string name="select_max_count">Already %1$d images selected</string>
+    <string name="select_min_count">You have to choice %1$d images</string>
+
+
+    //////////////////////// accounts screens
+    <string name="create_account">Create Account</string>
+    <string name="verify_mobile_number">Verify Mobile Number</string>
+    <string name="create_password">Create Password</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="select_image">Select Photo</string>
+    <string name="wifi_signal_strength_changed">Wifi Signal Strength Changed</string>
+
+
+    <string name="ht_service_notification_title">You Are On Trip </string>
+    <string name="ht_service_notification_text">Click To open your Trip</string>
+
+
+    ////// country codepicker strings
+    <string name="search_hint">Search...</string>
+    <string name="no_result_found">Results not found</string>
+    <string name="select_country">Select a county</string>
+
+
+    /// force update strings
+    <string name="youAreNotUpdatedTitle">Update Available</string>
+    <string name="youAreNotUpdatedMessage">A new version of YOUR_APP_NAME is available. Please update to version\s</string>
+    <string name="youAreNotUpdatedMessage1">\s now</string>
+    <string name="required_field_missing">Required Field missing</string>
+    <string name="no_network_available">No Network Available!</string>
+
+    ///// permissions strings
+    <string name="rationale_ask_again">This app may not work correctly without the requested permissions. Open the app settings screen to modify app permissions.</string>
+    <string name="title_settings_dialog">Permissions Required</string>
+    <string name="title_activity_meter_image">MeterImageActivity</string>
+    <string name="rationale_camera">Feature needs to access your device camera</string>
+    <string name="title_activity_selected_rental_ride">SelectedRentalRideActivity</string>
+
+
+    /////////////// selected ride activity xml and java used strings
+    <string name="ride_selected_no_data_found">No data found</string>
+
+    /////////// Selected Ride Rental mxl and java
+
+
+    /////////////Rides Activity
+    <string name="rental_type">Rental Type</string>
+
+
+    ///// PRice Fare Activity
+    <string name="PRICE_FARE_ride_fare">Ride fare</string>
+    <string name="please_confirm_this_receipt_with_customer">Please confirm this receipt with the customer.</string>
+    <string name="PRICE_FARE__tirp_details">Trip Detail</string>
+    <string name="PRICE_FARE__total_payable_amount">Total Payable Amount</string>
+    <string name="PRICE_FARE____total_distance">Total Distance :</string>
+    <string name="PRICE_FARE____total_waiting_time">Total Waiting Time :</string>
+    <string name="PRICE_FARE____total_time">Total Time :</string>
+    <string name="PRICE_FARE__fare">Fare :</string>
+    <string name="PRICE_FARE__ride_time_charges">Ride Time Charges :</string>
+    <string name="PRICE_FARE__waiting_charge">Waiting Charge :</string>
+    <string name="PRICE_FARE__net_fare">Net Fare :</string>
+    <string name="PRICE_FARE__submit">SUBMIT</string>
+    <string name="PRICE_FARE_coupon">Coupon (</string>
+    ////////////////// Main Activity
+    <string name="MAIN_ACTIVITY__profile">Profile</string>
+    <string name="MAIN_ACTIVITY__my_rides">Your trips</string>
+    <string name="MAIN_ACTIVITY__earnings">Earnings</string>
+    <string name="MAIN_ACTIVITY__customer_support">Customer Support</string>
+    <string name="MAIN_ACTIVITY__terms_and_condition">Terms and Conditions</string>
+    <string name="MAIN_ACTIVITY__about_us">ABOUT US</string>
+    <string name="MAIN_ACTIVITY__off_duty">Off Duty</string>
+    <string name="MAIN_ACTIVITY__move_your_vehicle">Please move your Vehicle to et you exact location...</string>
+    ////////////////////
+    <string name="MAIN_ACTIVITY__online">Online</string>
+    <string name="MAIN_ACTIVITY__offline">Offline</string>
+    <string name="Main_ACTIVITY_rentals">Rentals</string>
+
+
+    ////////////// Select car Activity dialog
+    <string name="SELECT_CAR_ACTIVITY_DIALOG__select_car_model">Select Car Model</string>
+
+
+    ///////////////// No internet dialog fragment
+    <string name="NO_INTERNET_DIALOG_FRAGMENT__no_connection">No Connection</string>
+    <string name="NO_INTERNET_DIALOG_FRAGMENT__please_check_your_internet_connectivity_and_try_again">Please check your internet connection and try again</string>
+    <string name="NO_INTERNET_DIALOG_FRAGMENT__try_again">Try Again</string>
+    <string name="NO_INTERNET_DIALOG_FRAGMENT__click_here_to_check_your_internet_setting">Click here to check your internet setting.</string>
+    <string name="NO_INTERNET_DIALOG_FRAGMENT__please_check_your_internet_connectivity">Please Check your internet Connectivity</string>
+
+    /////////// Earning Activity Graph Fragment
+    <string name="FRAGMENT_GRAPH__total_payout">Total Payout</string>
+
+
+    ////////////// customer support Activity
+    <string name="CUSTOMER_SUPPORT_ACTOIVITY__query_submitted">Query Submitted</string>
+    <string name="CUSTOMER_SUPPORT_ACTIVITY__your_query_is_submitted_successfully_our_executive_will_get_back_to_yo_in_any_moment">Your Query is submitted successfully , our executive will get back to yo in any moment</string>
+    <string name="CUSTOMER_SUPPORT_ACTIVITY__ok">OK</string>
+
+    /////////// Dialouge Log out
+    <string name="DIALOG_LOGOUT__sign_out">Sign Out</string>
+    <string name="DIALOG_LOGOUT__are_you_sure">Are you sure?</string>
+    <string name="DIALOG_LOGOUT__no">NO</string>
+    <string name="DIALOG_LOGOUT__yes">YES</string>
+
+    //////// Dialouge For city
+    <string name="DIALOUGE_FOR_CITY__select_city">SELECT CITY</string>
+
+    ////// dialouge for car model
+    <string name="DIALOG_CAR_MODEL__select_car_model1">SELECT CAR MODEL</string>
+
+
+    /////// Dialog for car type
+    <string name="DIALOG_CAR_TYPE__select_car_type1">SELECT CAR TYPE</string>
+
+
+    //////// Dialog for cancel reason
+    <string name="DIALOG_CANCEL_REASON__select_reason">SELECT REASON</string>
+
+
+    ///////////// Weekly statement activity
+    <string name="WEEKLY_STATEMENT_ACTIVITY__weekly_statement">Weekly Statement</string>
+    <string name="WEEKLY_STATEMENT_ACTIVITY__total_earning">Total Earnings</string>
+    <string name="WEEKLY_STATEMENT_ACTIVITY__completed_trips">Completed Trips</string>
+    <string name="WEEKLY_STATEMENT_ACTIVITY__trips_earnings">Trips Earnings</string>
+    <string name="WEEKLY_STATEMENT_ACTIVITY__fare_earned">Total billed to customer</string>
+    <string name="WEEKLY_STATEMENT_ACTIVITY__taxi_fee">Commission Deducted</string>
+    <string name="WEEKLY_STATEMENT_ACTIVITY__total_amount">Net Earned</string>
+    <string name="WEEKLY_STATEMENT_ACTIVITY__detail_earning">Detail Earnings</string>
+
+
+    /////////////////// ActivityTrialReceivePassenger
+    <string name="ACTIVITY_TRIAL_RECEIVE_PASSENGER_ok">OK</string>
+    <string name="WEEKLY_STATEMENT_ACTIVITY__accept_ride">ACCEPT RIDE</string>
+    <string name="WEEKLY_STATEMENT_ACTIVITY__cancel">Pass</string>
+    <string name="WEEKLY_STATEMENT_ACTIVITY__loading">loading...</string>
+    <string name="WEEKLY_STATEMENT_ACTIVITY__payment_mode">PAYMENT MODE :</string>
+    <string name="WEEKLY_STATEMENT_ACTIVITY__cash">CASH</string>
+    <string name="WEEKLY_STATEMENT_ACTIVITY__card">PAYMENT WITH CARD</string>
+    <string name="WEEKLY_STATEMENT_ACTIVITY__ride_expired">! RIDE EXPIRED !</string>
+    <string name="WEEKLY_STATEMENT_ACTIVITY__your_are_too_late_to_respond_over_this_request_please_contact_to_your_admin">Your are late to respond over this Request. Please Contact your Admin!</string>
+
+    ///////////////////// TrackRideRentalActivity
+    <string name="TRACK_RIDE_RENTAL_ACTIVITY__navigate">NAVIGATE</string>
+    <string name="TRACK_RIDE_RENTAL_ACTIVITY__status">Trip Status</string>
+    <string name="TRACK_RIDE_RENTAL_ACTIVITY__something_bad_happen_with_api">Something bad has happened with the API</string>
+    <string name="TRACK_RIDE_RENTAL_ACTIVITY__located">REACHED</string>
+    <string name="TRACK_RIDE_RENTAL_ACTIVITY__begin">BEGIN TRIP</string>
+    <string name="TRACK_RIDE_RENTAL_ACTIVITY__end">End Trip</string>
+    <string name="TRACK_RIDE_RENTAL_ACTIVITY__ride_cancelled_by_user">Ride cancelled by the User</string>
+    <string name="TRACK_RIDE_RENTAL_ACTIVITY__allert">Alert !</string>
+    <string name="TRACK_RIDE_RENTAL_ACTIVITY__ok">Ok</string>
+
+
+    ////////////////////////////// trackRideActivity
+    <string name="TRACK_RIDE_ACTIVITY__navigate">NAVIGATE</string>
+    <string name="TRACK_RIDE_ACTIVITY__cancel">CANCEL</string>
+    <string name="TRACK_RIDE_ACTIVITY__trip_status">Trip Status</string>
+    <string name="TRACK_RIDE_ACTIVITY__located">REACHED</string>
+    <string name="TRACK_RIDE_ACTIVITY__begin">BEGIN TRIP</string>
+    <string name="TRACK_RIDE_ACTIVITY__end">END Trip</string>
+    <string name="TRACK_RIDE_ACTIVITY__please_start_your_ridr_first">Please start your ride first !</string>
+
+
+    /////////////////////////// TcActivity
+    <string name="TC_ACTIVITY__tc">Terms &amp; Conditions</string>
+
+    ///////// SelectedRidesActivity
+    <string name="SELECTED_RIDE_ACTIVITY__ride_details">Ride Details</string>
+    <string name="SELECTED_RIDE_ACTIVITY__trip_detail">Trip Details</string>
+    <string name="SELECTED_RIDE_ACTIVITY__go_to_your_current_ride">Go to your current ride</string>
+    <string name="SELECTED_RIDE_ACTIVITY__bill_details">Bill Details</string>
+    <string name="SELECTED_RIDE_ACTIVITY__total_distance_travel">Total Distance travel</string>
+    <string name="SELECTED_RIDE_ACTIVITY__distance_fare">Distance Fare</string>
+    <string name="SELECTED_RIDE_ACTIVITY__ride_time_charges">Ride Time Charges</string>
+    <string name="SELECTED_RIDE_ACTIVITY__waiting_charge">Waiting Charge</string>
+    <string name="SELECTED_RIDE_ACTIVITY__total_bill">Total Bill</string>
+    <string name="SELECTED_RIDE_ACTIVITY__payment">Payment</string>
+    <string name="SELECTED_RIDE_ACTIVITY__cash">CASH</string>
+    <string name="SELECTED_RIDE_ACTIVITY__new_ride_allocated">New Ride Allocated</string>
+    <string name="SELECTED_RIDE_ACTIVITY__user_cancelled_ride">User has cancelled the Ride</string>
+    <string name="SELECTED_RIDE_ACTIVITY__accepted">Accepted</string>
+    <string name="SELECTED_RIDE_ACTIVITY__alloting_to_other">Allotting to Other</string>
+    <string name="SELECTED_RIDE_ACTIVITY__arrived">Arrived</string>
+    <string name="SELECTED_RIDE_ACTIVITY__ride_on_going">Ride on Going</string>
+    <string name="SELECTED_RIDE_ACTIVITY__ride_completed">Ride Completed</string>
+    <string name="SELECTED_RIDE_ACTIVITY__later_request">Later Request</string>
+    <string name="SELECTED_RIDE_ACTIVITY__cancelled_by_you">Cancelled By You</string>
+    <string name="SELECTED_RIDE_ACTIVITY__coupon_applied">Coupon Applied</string>
+
+
+    //
+
+    /////////////////// SelectedRentalRideActivity
+    <string name="SELECTED_RENTAL_RIDE_ACTIVITY__ride_details">Ride Details</string>
+    <string name="SELECTED_RENTAL_RIDE_ACTIVITY__trip_detail">Trip Detail</string>
+    <string name="SELECTED_RENTAL_RIDE_ACTIVITY__go_to_your_current_ride">GO TO YOUR CURRENT RIDE</string>
+    <string name="SELECTED_RENTAL_RIDE_ACTIVITY__distance_travel">Distance Travel :</string>
+    <string name="SELECTED_RENTAL_RIDE_ACTIVITY__total_time">Total Time :</string>
+    <string name="SELECTED_RENTAL_RIDE_ACTIVITY__bill_details">Bill Details</string>
+    <string name="SELECTED_RENTAL_RIDE_ACTIVITY__total_price">Total Price</string>
+    <string name="SELECTED_RENTAL_RIDE_ACTIVITY__total_payable_amount">Total Payable Amount</string>
+    <string name="SELECTED_RENTAL_RIDE_ACTIVITY__something_went_wrong_in_api">Something went wrong with the API</string>
+    <string name="SELECTED_RENTAL_RIDE_ACTIVITY__base_package_txt_package">Package (</string>
+    <string name="SELECTED_RENTAL_RIDE_ACTIVITY__for"> for </string>
+    <string name="SELECTED_RENTAL_RIDE_ACTIVITY__hours">hrs.)</string>
+    <string name="SELECTED_RENTAL_RIDE_ACTIVITY__extra_distance_travel">Extra Distance Travel (</string>
+    <string name="SELECTED_RENTAL_RIDE_ACTIVITY__extra_time">Extra Time (</string>
+
+
+    //////////// RidesActivity
+    <string name="RIDES_ACTIVITY__rides">Your Trips</string>
+
+
+    ////////////////// RentalPricefareActivity
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__please_confirm_this_bill_to_the_customer">Please Confirm this bill to the customer.</string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__trip_detail">Trip Detail</string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__initial_meter_reading">Initial meter Reading</string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__final_meter_reading">Final meter Reading</string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__total_payable_amount">Total Payable Amount</string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__distance_travel">Distance Travel :</string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__total_time">Total Time </string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__bill_details">Bill Details :</string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__extra_estimated_time_hrs">Extra Estimated time (-- hrs)</string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__total_price">Total Price</string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__coupon_applied">Coupon Applied(- - - )</string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__submit">SUBMIT</string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__package">Package (</string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__for"> for </string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__hours">hrs.)</string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__extra_distance_travel">Extra Distance Travel (</string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__extra_time">Extra Time (</string>
+
+    /////////////////////////// RegisterActivity
+    <string name="REGISTER_ACTIVITY__enter_name">Enter Name</string>
+    <string name="REGISTER_ACTIVITY__enter_email">Enter Email</string>
+    <string name="REGISTER_ACTIVITY__enter_mobile">Enter Mobile</string>
+    <string name="REGISTER_ACTIVITY__enter_password">Enter Password</string>
+    <string name="REGISTER_ACTIVITY__select_city">Select City</string>
+    <string name="REGISTER_ACTIVITY__dummy_txt">Please select the City</string>
+    <string name="REGISTER_ACTIVITY__select_car_type">Select Car Type</string>
+    <string name="REGISTER_ACTIVITY__select_car_model">Select Car Model</string>
+    <string name="REGISTER_ACTIVITY__select_ride_category">Type of Ride</string>
+    <string name="REGISTER_ACTIVITY__enter_car_number">Enter Car Number</string>
+    <string name="select_ride_category">Please select the ride category !</string>
+    <string name="DIALOG_CAR_MODEL__select_category1">SELECT RIDE CATEGORY</string>
+    <string name="REGISTER_ACTIVITY__bank_name">Enter Bank Name</string>
+    <string name="REGISTER_ACTIVITY__account_number">Enter Account Number</string>
+    <string name="REGISTER_ACTIVITY__account_holder_name">Enter Account Name</string>
+
+
+    ///////////////// ReceiveRentalPassengerActivity
+    <string name="RECEIVE_RENTAL_PASSENGER_ACTIVITY__rentals">Charter</string>
+    <string name="RECEIVE_RENTAL_PASSENGER_ACTIVITY__package">Package</string>
+    <string name="RECEIVE_RENTAL_PASSENGER_ACTIVITY__time">Time</string>
+    <string name="RECEIVE_RENTAL_PASSENGER_ACTIVITY__package_price">Package Price</string>
+    <string name="RECEIVE_RENTAL_PASSENGER_ACTIVITY__pick_up_point">Pick up Point</string>
+    <string name="RECEIVE_RENTAL_PASSENGER_ACTIVITY__note_this_request_will_be_automatically_rejected_in_30_seconds">NOTE : This request will be automatically rejected in 30 seconds</string>
+    <string name="RECEIVE_RENTAL_PASSENGER_ACTIVITY__ignore">Pass</string>
+    <string name="RECEIVE_RENTAL_PASSENGER_ACTIVITY__accept">Accept</string>
+
+
+    //////////////// ProfileActivity
+    <string name="PROFILE_ACTIVITY__done">DONE</string>
+    <string name="PROFILE_ACTIVITY__email_id_big">EMAIL ID</string>
+    <string name="PROFILE_ACTIVITY__password_big">PASSWORD</string>
+    <string name="PROFILE_ACTIVITY__bank_name">BANK NAME</string>
+    <string name="PROFILE_ACTIVITY__account_name">ACCOUNT NAME</string>
+    <string name="PROFILE_ACTIVITY__account_number">ACCOUNT NUMBER</string>
+    <string name="PROFILE_ACTIVITY__name_big">NAME</string>
+    <string name="PROFILE_ACTIVITY__mobile_big">MOBILE NUMBER</string>
+    <string name="PROFILE_ACTIVITY__logout">LOGOUT</string>
+
+
+    ////////////////// OnlineOfflineActivity
+    <string name="ONLINE_OFFLINE_ACTIVITY__currently_you_are_off_duty_please_turn_on_your_duty_on_in_order_to_get_rides_in_you_area">Currently you are Off Duty, Please turn on your duty on in order to get Rides in you area.</string>
+    <string name="ONLINE_OFFLINE_ACTIVITY__current_status">Current Status</string>
+    <string name="ONLINE_OFFLINE_ACTIVITY__on_duty">On duty</string>
+    <string name="ONLINE_OFFLINE_ACTIVITY__go_on_duty">Go On Duty</string>
+    <string name="ONLINE_OFFLINE_ACTIVITY__go_offline">Go Offline</string>
+    <string name="ONLINE_OFFLINE_ACTIVITY__off_duty">Off Duty</string>
+    <string name="ONLINE_OFFLINE_ACTIVITY__offline_status_description_txt">Currently you are off duty, Please turn on you duty in order to get new rides at your location.</string>
+    <string name="ONLINE_OFFLINE_ACTIVITY__go_online">GO ONLINE</string>
+
+
+    ///////////////////////// MeterImageActivity
+    <string name="METER_IMAGE_ACTIVITY__rentalCabText">RENTAL BOOKING RIDE</string>
+    <string name="METER_IMAGE_ACTIVITY__rentalTripBegin">Are you sure you want to begin the Trip?</string>
+    <string name="METER_IMAGE_ACTIVITY__rentalTripEnd">Are you sure you want to end the Trip?</string>
+    <string name="METER_IMAGE_ACTIVITY__ok">YES</string>
+    <string name="METER_IMAGE_ACTIVITY__no">NO</string>
+
+
+    //////////////////// LoginActivity
+    <string name="VERIFY_OTP">VERIFY PHONE NUMBER </string>
+    <string name="VERIFY_OTP_text">Enter OTP</string>
+    <string name="LOGIN_TEXT_verify">Please enter the One Time Password (OTP) received on your number!</string>
+
+    <string name="LOGIN_ACTIVITY__login">LOGIN</string>
+    <string name="LOGIn_ACTIVITY__email">Email</string>
+    <string name="LOGIn_ACTIVITY__phone">Phone</string>
+    <string name="LOGIN_ACTIVITY__password">Password</string>
+    <string name="LOGIN_ACTIVITY__forgot_password_1">Forgot Password?</string>
+    <string name="LOGIN_ACTIVITY__or">OR</string>
+
+
+    //////////////////// Forgot password activity
+    <string name="FORGOT_PASSWORD__enter_email">Enter Email</string>
+
+    <string name="FORGOT_PASSWORD__forgot_password">FORGOT PASSWORD</string>
+    <string name="FORGOT_PASSWORD_ACTIVITY__done">Done</string>
+
+    ////////////////////////// EarningActivity
+    <string name="EARNINF_ACTIVITY__your_earning">Your Earnings</string>
+    <string name="EARNING_ACTIVITY__total_outstanding_if_any">Total Outstanding(If Any)</string>
+    <string name="EARNING_ACTIVITY__view_full_summary">View Full Summary</string>
+
+    //////////////////// DocumentActivity
+    <string name="DOCUMENT_ACTIVITY__upload_document">Upload Document</string>
+    <string name="DOCUMENT_ACTIVITY__long_text">For Registering with us you have to upload documents like :- Licence, Insurance, RC </string>
+    <string name="DOCUMENT_ACTIVITY__insurance">Insurance</string>
+    <string name="DOCUMENT_ACTIVITY__licence">Licence</string>
+    <string name="DOCUMENT_ACTIVITY__registration">RC</string>
+    <string name="DOCUMENT_ACTIVITY__Ok">OK</string>
+
+    /////////////////////// DailyStatementActivity
+    <string name="DAILY_STATE_MENT_ACTIVITY__daily_statement">Daily Statement</string>
+    <string name="DAILY_STATE_MENT_ACTIVITY__total_earning">Total Earnings</string>
+    <string name="DAILY_STATE_MENT_ACTIVITY__total_earningcompleted_trips">Completed Trips</string>
+    <string name="DAILY_STATE_MENT_ACTIVITY__total_earningtrips_earnings">Trip Earnings</string>
+    <string name="DAILY_STATE_MENT_ACTIVITY__total_earningfare_earned">Total billed to customer</string>
+    <string name="DAILY_STATE_MENT_ACTIVITY__total_earningtaxi_fee">Commission Deducted</string>
+    <string name="DAILY_STATE_MENT_ACTIVITY__total_earningtotal_amount">Net Earned</string>
+    <string name="DAILY_STATE_MENT_ACTIVITY__total_earningtrips_detailing">Trips Detailing</string>
+
+
+    //////////// CustomerSupportActivity
+    <string name="REGISTER_ACTIVITY__continuee">CONTINUE</string>
+    <string name="CUSTOMER_SUPPORT_ACTIVITY__send">SEND</string>
+    <string name="CUSTOMER_SUPPORT_ACTIVITY__do_you_have_a_query">Do you have any query?</string>
+    <string name="CUSTOMER_SUPPORT_ACTIVITY__please_let_us_know_about_your_query_our_support_team_will_get_back_to_you">Please write us about your query , our support team will shortly get back to you!</string>
+    <string name="CUSTOMER_SUPPORT_ACTIVITY__your_name">Your Name</string>
+    <string name="CUSTOMER_SUPPORT_ACTIVITY__email">Email</string>
+    <string name="CUSTOMER_SUPPORT_ACTIVITY__phone">Phone</string>
+    <string name="CUSTOMER_SUPPORT_ACTIVITY__your_query">Your Query</string>
+
+
+    /////////////// ChangePasswordActivity
+    <string name="CHANGE_PASSWORD_ACTIVITY_change_password">CHANGE PASSWORD</string>
+    <string name="CHANGE_PASSWORD_ACTIVITY_old_password">Old Password</string>
+    <string name="CHANGE_PASSWORD_ACTIVITY_new_password">New Password</string>
+    <string name="CHANGE_PASSWORD_ACTIVITY_confirm_password">Confirm Password</string>
+    <string name="CHANGE_PASSWORD_ACTIVITY_done">Done</string>
+
+
+    ///////////////////// AboutUsActivity
+    <string name="ABOUT_US_ACTIVITY__about_us">About Us</string>
+    <string name="location_permission_rationale_msg">This app need some permisions!</string>
+    <string name="TrackRideActivity__set_your_drop_point">Set up your drop point</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="please_set_expire_date_accordingly">Please set Expire Date Accordingly</string>
+    <string name="SelectedRentalRideActivity__night_time_charges">Night Time Charges</string>
+    <string name="SelectedRentalRideActivity__peak_time_charges">Peak Time Charges</string>
+    <string name="SELECTED_RIDE_ACTIVITY__night_time_charges">Night Time Charges</string>
+    <string name="SELECTED_RIDE_ACTIVITY__peak_time_charges">Peak Time Charges</string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__night_time_charges">Night Time Charges</string>
+    <string name="RENTAL_PRICE_FARE_ACTIVITY__peak_time_charges">Peak Time Charges</string>
+    <string name="PRICE_FARE__night_charges">Night Charges</string>
+    <string name="PRICE_FARE__peak_time_charges">Peak Time Charges</string>
+    <string name="WEEKLY_STATEMENT_ACTIVITY__acceptance_rate">Acceptance Rate</string>
+    <string name="NOTIFICATIONS__notifications">Notifications</string>
+    <string name="MAIN_ACTIVITY__notifications">Notifications</string>
+
+
+    ////////////////// FORGOT PASSWORD
+    <string name="reset_pass">RESET PASSWORD </string>
+    <string name="REGISTER_ACTIVITY__continue">CONTINUE</string>
+    <string name="LOGIN_TEXTs">Please enter the One Time Password (OTP) received on your number !</string>
+    <string name="new_pass">New Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="getOTP">GET OTP</string>
+    <string name="submitPassword">Please enter the same password as above in order to create a new one!</string>
+    <string name="changed_password">Password Successfully Changed!</string>
+
+    <string name="photo_upload">Please upload only good quality documents to avoid delays to your registration!</string>
+    <string name="attach_expirey_date_of_your_document">Please attach expiry date of your document</string>
+    <string name="language">Language</string>
+    <string name="select_language">Select language</string>
+    <string name="METER_IMAGE_ACTIVITY__current_meter_reading_txt">Please upload a pic of your current meter reading.</string>
+    <string name="METER_IMAGE_ACTIVITY__please_upload_a_photo_of_your_meter_of_your_car_or_motorcycle">Please Upload a photo of your meter of your car or motorcycle</string>
+    <string name="METER_IMAGE_ACTIVITY__enter_meter_value">Enter meter value</string>
+    <string name="please_ask_drop_location_from_passenger">Please Ask Drop Location From the Passenger.</string>
+    <string name="ride_started_but_with_low_accuracy">Ride Started but with Accuracy =</string>
+    <string name="ride_end_but_with_accuracy">Ride End but with Accuracy =</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="enter_expiry_date_of_your_document">Enter Expiry date of your document</string>
+    <string name="submit">Submit</string>
+    <string name="online_time">Online Time</string>
+    <string name="overall_rating">Overall Rating</string>
+    <string name="documents">Documents</string>
+    <string name="use_in_case_of_emergency">Use in Case of Emergency</string>
+    <string name="login">Login</string>
+    <string name="login_as_demo_driver">Login as Demo Driver</string>
+    <string name="some_information_about_status_will_be_fetched_according_to_the_status_and_image_as_well">Some information about status will be fetched according to the status and image as well</string>
+    <string name="send_message">Send Message</string>
+    <string name="in_coning_message_frpom_user_user_user_user_user_user_user_user_user_user_user_user_user_app_app_app_app_app_app_app_app_app">In coning message Frpom user user user user user user user user user user user user user app app app app app app app app app</string>
+    <string name="click_to_view">Click To View</string>
+    <string name="connectivity_status_development_purpose">connectivity status (development purpose)</string>
+    <string name="please_enter_you_name_and_details_for_the_identification_of_your_demo_driver">Please enter you name and details for the identification of your demo driver</string>
+    <string name="please_enter_these_details_to_create_a_demo_driver">Please Enter these details to create a Demo Driver</string>
+    <string name="driver_name">Driver name</string>
+    <string name="driver_phone_email">Driver Phone/email</string>
+    <string name="login_as_demo">Login as demo</string>
+    <string name="or_skip_entering_details">or skip entering details</string>
+    <string name="you_have_logged_in_as_a_demo_driver_by_default_your_car_category_is_mini">You have logged in as a demo driver , by default your car category is MINI</string>
+    <string name="ok">Ok</string>
+    <string name="driving_licence">Driving Licence</string>
+    <string name="not_sumitted">Not Sumitted</string>
+    <string name="user_has_cancel_the_ride">User has Cancel the ride</string>
+    <string name="your_trips">Your Trips</string>
+    <string name="on__going">On Going</string>
+    <string name="new_request">New Request</string>
+    <string name="history">History</string>
+    <string name="accept_pass">Accept/Pass</string>
+    <string name="in_order_to_use_app_settings">In Order to use this app properly please turn on your device location from settings</string>
+    <string name="no_internet_connectivity">No Internet Connectivity!</string>
+    <string name="it_seems_you_are_out_of_internet_connection">It Seems You are out of Network, Please check you internet connection!</string>
+    <string name="new_version_is_avaiable">New version of this app is available on play store</string>
+    <string name="do_it_later">Do it later</string>
+    <string name="checking_new_versions">Checking for new versions...</string>
+    <string name="fetching_versions">Fetching versions...</string>
+    <string name="some_man_datory_is_available">Some mandatory update is available</string>
+    <string name="non_mandatory_update">Update is available (Non mandatory)</string>
+    <string name="started_with_login_procedure">Stated with login procedure</string>
+    <string name="normal_type">Normal Type</string>
+    <string name="rental_request">Rental Request</string>
+    <string name="app_is_up_to_date">App is Up to date</string>
+    <string name="start_for_customer_pickup">Start For Customer Pick Up</string>
+    <string name="your_app_is_in_maintainance">Your App is in under maintenance.</string>
+    <string name="please_upload_all_documents">Please upload all documents first !</string>
+    <string name="no_doc_found_inthis_city">No Documents found in this city</string>
+    <string name="upcomings">Upcomings</string>
+    <string name="past_trips">Past Trips</string>
+    <string name="ride_cancelled_bu_admin">Ride Cancelled by Admin</string>
+    <string name="send_email">Send Email</string>
+    <string name="upload_profile_pic">Upload profile pic</string>
+    <string name="are_you_sure_to_log_out">Are you sure you want to log out ?</string>
+    <string name="required_field_empty">Required field empty !</string>
+    <string name="invalid_otp">Invalid OTP !</string>
+    <string name="this_app_need_telephony_permission">This app need to access telephony permission for this task</string>
+    <string name="please_upload_a_good_quality_image_for_your_profile">Please upload a good quality image for your profile</string>
+    <string name="select_navigation">Select Navigation.</string>
+    <string name="google_map">Google map</string>
+    <string name="waze_map">Waze map</string>
+    <string name="booking_date">Booking Date</string>
+    <string name="requested_date">Requested Date</string>
+    <string name="profile_updated_successfully">Profile updated Successfully</string>
+    <string name="new_message">New Message</string>
+    <string name="your_ride_is_expired">Your Ride is Expired</string>
+    <string name="time_is_unexpectedlyshort">Time is Unexpectedly short to accept</string>
+
+</resources>
+
